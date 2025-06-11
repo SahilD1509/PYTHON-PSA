@@ -1,0 +1,5 @@
+x = int(input("Enter number A:"))
+y = int(input("Enter number B:"))
+z = int(input("Enter number C:"))
+min_num = x if x < y and x < z else (y if y < z else z)
+print("Minimum number is:", min_num)
