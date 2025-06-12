@@ -15,4 +15,4 @@ print(emp['ename'])
 print(emp['esal'])
 print(emp['loc'])
 print(emp['loc'][1])
-print(emp['email'])
+print(emp['email']) #Keyerror because this key is not present in dictionary
