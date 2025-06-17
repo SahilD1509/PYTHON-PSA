@@ -1,0 +1,7 @@
+fp1 = open ('logo.png','rb')
+img_data = fp1.read()
+fp2 = open('new_logo.png','wb')
+fp2.write(img_data)
+print('New Image is created')
+fp2.close()
+fp1.close()
