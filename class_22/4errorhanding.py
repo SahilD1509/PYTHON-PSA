@@ -10,7 +10,7 @@ try:
 except TypeError as error:
     pass
 except ZeroDivisionError as error:
-    print("not possible to divide by zero")
+    print("Can't divide by zero")
 except FileNotFoundError as error:
     pass
 except:
