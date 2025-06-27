@@ -8,7 +8,7 @@ try:
 
     fp = open("xyz.txt", "r")
 except TypeError as error:
-    pass
+    print("Please enter number")
 except ZeroDivisionError as error:
     print("Can't divide by zero")
 except FileNotFoundError as error:
