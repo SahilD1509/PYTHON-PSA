@@ -1,6 +1,7 @@
 try:
-    n = 20
-    res = 100 / n
+    n = int(input("Enter a number: "))
+    b = int(input("Enter another number: "))
+    res = b / n
     
 except ZeroDivisionError:
     print("You can't divide by zero!")
