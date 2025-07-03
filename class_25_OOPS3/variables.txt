@@ -1,0 +1,21 @@
+variables in python 
+- INSTANCE 
+- STATIC 
+- LOCAL
+
+
+Methods in python
+- instance  (create using self method)
+- @classmethod
+- @staticmethod
+
+INSTANCE variable                             |     Static variable
+----------------------------------------------|--------------------------------------------------------------
+- inside constructor                          |     - Inside a class, Outside methods
+  using - self                                |     - Inside constructor using class name
+                                              |     - Inside classmethod using cls and class name
+- inside - instane method                     |     - outside a class using classname
+  using - self                                |
+                                              |
+- outside a class                             | 
+  using - object name                         |

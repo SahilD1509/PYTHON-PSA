@@ -1,6 +1,6 @@
 class contains variables and methods
 
 Constructor:
-- It is a special metho, to initiliaze object values.
+- It is a special method, to initiliaze object values.
 - Constructor method execute automatically at the time of object creation only.
 - We can't invoke constructor method especially.
