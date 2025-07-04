@@ -1,0 +1,13 @@
+Inheritance 
+- Inheriting properties from one class to another class 
+- we can say that inherit from parent class to child class 
+- Resusing existing class functionality and adding new features
+- main work of inheritance is CODE REUSABILITY
+- PYTHON accepts all types of inheritence except CYCLIC inheritence
+
+TYPES OF Inheritance
+- Simple
+- Multiple
+- Multilevel
+- Hybrid 
+- Hirerachy
