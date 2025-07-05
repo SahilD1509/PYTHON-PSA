@@ -4,7 +4,7 @@ def withdrawl_amount():
     amount = int(input("Enter Amount: "))
     acc_bal = 5000
     if acc_bal < amount:
-        raise insufficientBalError("No Balance")
+        raise InsufficientBalError("No Balance")
     else:
         print("Enjoy")
 
