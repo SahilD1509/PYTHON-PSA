@@ -19,7 +19,7 @@ try:
     db.commit(); cur.close(); db.close()
 
     # MongoDB
-    client = MongoClient("mongodb://localhost:27017/")
+    client = MongoClient(" mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.5")
     dbm = client["testdb"]; col = dbm["user_data"]
     col.delete_many({}); col.insert_many(users)
     client.close()
